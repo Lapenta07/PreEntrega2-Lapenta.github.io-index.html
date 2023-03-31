@@ -165,7 +165,7 @@ nav ul a li{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+    transition: -webkit-transform 0.3s ease-in-out 0.1s;
 }
 
 

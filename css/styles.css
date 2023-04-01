@@ -39,6 +39,14 @@ html {
     margin: 0px 0px;
   }
 
+  #Fondo-Fr{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    background-size: cover;
+    margin: 0px 0px;
+  }
+
    h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin-top: 0;
     margin-bottom: 0rem;
@@ -58,6 +66,7 @@ html {
   
   h2, .h2 {
     font-size: calc(1.3rem + 0.6vw);
+    color: white;
   }
   @media (min-width: 1200px) {
     h2, .h2 {
@@ -450,9 +459,55 @@ footer p{
   color: white;
   font-size: 1em;
   justify-content: center;
+  margin: auto 0px;
 }
 
 footer a{
   color: white;
   letter-spacing: 1px;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.testimonial-grid{
+  display: grid;
+  gap: 1.5rem;
+  row-gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding-block: 2rem;
+  width: min(95%, 80rem);
+  margin-inline: auto;
+}
+
+.tarjetas{
+  width: 22rem;
+  border: 2px solid white;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0 auto;
+}
+
+.tarjetas img{
+  border-radius: 15px 15px 0px 0px;
+}
+
+.ciudades{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin: 0 auto;
+  width:min(95%, 80rem);
+}
+
+.texto-ciudad{
+  justify-content: center;
+  margin: auto 0px;
+  width: 66%;
+}
+
+.foto-ciudad{
+  width: 33%;
+  border-radius: 0px 0px 0px 0px;
 }
